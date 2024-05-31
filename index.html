@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel='stylesheet' href='styles.css'></link>
+</head>
+
+<body>
+
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>We appreciate your efforts in enhancing our platform</p>
+    <form id='survey-form'>
+      <fieldset>
+              <label for='name' id="name-label">Name <input id='name' name='name' type='text' placeholder='Enter your name' required></label>
+
+      <label for='email' id="email-label">Email <input id='email' type='email' name='email' placeholder='Enter your email' required></label>
+      
+      <label name='number' id="number-label">Age <input type='number' id='number' name='number' min='13' max='120' placeholder='Age'></label>
+
+      <label>Which description aligns best with your role? </label>
+        <select id='dropdown'>
+          <option value=''>select one</option>
+          <option value='1'>student</option>
+          <option value='2'>Full time job</option>
+          <option value='3'>Part time job</option>
+        </select>
+      </fieldset>
+      
+      <fieldset>
+        <label>Would you suggest freeCodeCamp to a friend?</label>
+
+        <label for='reffered'><input type='radio' class="inline" name='reffered' value='3' checked> Absolutely</label>
+
+        <label for='reffered' ><input type='radio' class="inline" name='reffered' value='3'> Possibly</label>
+        
+        <label for='reffered' ><input type='radio' class="inline" name='reffered' value='3'> Undecided</label>
+    </fieldset>
+
+    <fieldset>
+        <label>What areas do you think could be improved? <p name='check'>(Select all that apply)</p>
+        </label>
+        <label><input class="inline" type='checkbox' value='2'> Back-end Projects</label>
+        <label><input class="inline" type='checkbox' value='1'> Front-end Projects</label>
+        <label><input class="inline" type='checkbox' value='3'> Data Visualization</label>
+        <label><input class="inline" type='checkbox' value='4'> Challenges</label>
+        <label><input class="inline" type='checkbox' value='5'> Videos</label>
+        <label><input class="inline" type='checkbox' value='6'> Gitter Help Rooms</label>
+    <fieldset>
+      <label>Any suggestions?
+        <textarea>
+        </textarea></label>
+
+    <input id="submit" type='submit'>
+    </form>
+
+</body>
+</html>

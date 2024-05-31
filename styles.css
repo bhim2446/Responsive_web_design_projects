@@ -1,0 +1,76 @@
+body{
+    background-color:#7d7dfd40;
+  }
+  
+  #title{
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  #description{
+      margin: 1em auto;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+    
+  #survey-form{
+      width: 70vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+      padding-bottom: 2em;
+      background-color:#8f6d6d;
+      color:dfdfdf;
+  }
+  
+  p[name='check']
+  {
+    display:inline;
+    font-family:roboto;
+    color:cccccc;
+    font-size:0.85em;
+  
+  }
+  
+  label{
+  font-size: 1.5em;
+  display: block;
+  margin: 0.5rem 0;
+  }
+  
+  
+  fieldset{
+    border:none;
+  }
+  
+  input,select, textarea {
+      /* display:block; */
+      margin:1em 20px;
+      width:90%;
+      background-color: #0a0a23;
+      border: 1px solid #0a0a23;
+      color: #ffffff;
+      min-height: 2em;
+    }
+
+  .inline {
+      width: unset;
+      margin:  0em 1em 0 3em;
+      min-height: 2em;
+      vertical-align: middle;
+    }
+
+    textarea{
+    min-height: 7em;
+    }
+  
+  #submit{
+    width: 30%;
+    min-height: 2.5em;
+    text-align: center;
+    margin: 0 38%;
+    border: #0a0a23 solid;
+    border-radius: 0.5em;
+  }
+  
